@@ -1,0 +1,238 @@
+Performing Curl Test HAVE_FSETXATTR_5 failed with the following output:
+Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /Users/mauricioapaza/Desktop/Build_Octree/cmake-3.27.6/Bootstrap.cmk/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_34ff2/fast
+make  -f CMakeFiles/cmTC_34ff2.dir/build.make CMakeFiles/cmTC_34ff2.dir/build
+Building C object CMakeFiles/cmTC_34ff2.dir/CurlTests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang   -w -DHAVE_FSETXATTR_5  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_SYS_UTSNAME_H -std=gnu11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -MD -MT CMakeFiles/cmTC_34ff2.dir/CurlTests.c.o -MF CMakeFiles/cmTC_34ff2.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_34ff2.dir/CurlTests.c.o -c /Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/Utilities/cmcurl/CMake/CurlTests.c
+/Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/Utilities/cmcurl/CMake/CurlTests.c:431:26: error: too few arguments to function call, expected 6, have 5
+  fsetxattr(0, 0, 0, 0, 0);
+  ~~~~~~~~~              ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/xattr.h:67:5: note: 'fsetxattr' declared here
+int fsetxattr(int fd, const char *name, const void *value, size_t size, u_int32_t position, int options);
+    ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_34ff2.dir/CurlTests.c.o] Error 1
+make: *** [cmTC_34ff2/fast] Error 2
+
+
+Performing Curl Test HAVE_IOCTLSOCKET failed with the following output:
+Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /Users/mauricioapaza/Desktop/Build_Octree/cmake-3.27.6/Bootstrap.cmk/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ec022/fast
+make  -f CMakeFiles/cmTC_ec022.dir/build.make CMakeFiles/cmTC_ec022.dir/build
+Building C object CMakeFiles/cmTC_ec022.dir/CurlTests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang   -w -DHAVE_IOCTLSOCKET  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_SYS_UTSNAME_H -std=gnu11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -MD -MT CMakeFiles/cmTC_ec022.dir/CurlTests.c.o -MF CMakeFiles/cmTC_ec022.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_ec022.dir/CurlTests.c.o -c /Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/Utilities/cmcurl/CMake/CurlTests.c
+/Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/Utilities/cmcurl/CMake/CurlTests.c:221:24: error: call to undeclared function 'ioctlsocket'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+ unsigned long flags = ioctlsocket(socket, FIONBIO, &flags);
+                       ^
+/Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/Utilities/cmcurl/CMake/CurlTests.c:221:44: error: use of undeclared identifier 'FIONBIO'
+ unsigned long flags = ioctlsocket(socket, FIONBIO, &flags);
+                                           ^
+2 errors generated.
+make[1]: *** [CMakeFiles/cmTC_ec022.dir/CurlTests.c.o] Error 1
+make: *** [cmTC_ec022/fast] Error 2
+
+
+Performing Curl Test HAVE_IOCTLSOCKET_CAMEL failed with the following output:
+Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /Users/mauricioapaza/Desktop/Build_Octree/cmake-3.27.6/Bootstrap.cmk/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_53e0c/fast
+make  -f CMakeFiles/cmTC_53e0c.dir/build.make CMakeFiles/cmTC_53e0c.dir/build
+Building C object CMakeFiles/cmTC_53e0c.dir/CurlTests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang   -w -DHAVE_IOCTLSOCKET_CAMEL  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_SYS_UTSNAME_H -std=gnu11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -MD -MT CMakeFiles/cmTC_53e0c.dir/CurlTests.c.o -MF CMakeFiles/cmTC_53e0c.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_53e0c.dir/CurlTests.c.o -c /Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/Utilities/cmcurl/CMake/CurlTests.c
+/Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/Utilities/cmcurl/CMake/CurlTests.c:245:13: error: call to undeclared function 'IoctlSocket'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+    if(0 != IoctlSocket(0, 0, 0))
+            ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_53e0c.dir/CurlTests.c.o] Error 1
+make: *** [cmTC_53e0c/fast] Error 2
+
+
+Performing Curl Test HAVE_IOCTLSOCKET_CAMEL_FIONBIO failed with the following output:
+Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /Users/mauricioapaza/Desktop/Build_Octree/cmake-3.27.6/Bootstrap.cmk/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_22bfb/fast
+make  -f CMakeFiles/cmTC_22bfb.dir/build.make CMakeFiles/cmTC_22bfb.dir/build
+Building C object CMakeFiles/cmTC_22bfb.dir/CurlTests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang   -w -DHAVE_IOCTLSOCKET_CAMEL_FIONBIO  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_SYS_UTSNAME_H -std=gnu11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -MD -MT CMakeFiles/cmTC_22bfb.dir/CurlTests.c.o -MF CMakeFiles/cmTC_22bfb.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_22bfb.dir/CurlTests.c.o -c /Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/Utilities/cmcurl/CMake/CurlTests.c
+/Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/Utilities/cmcurl/CMake/CurlTests.c:269:17: error: call to undeclared function 'IoctlSocket'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+        if(0 != IoctlSocket(0, FIONBIO, &flags))
+                ^
+/Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/Utilities/cmcurl/CMake/CurlTests.c:269:32: error: use of undeclared identifier 'FIONBIO'
+        if(0 != IoctlSocket(0, FIONBIO, &flags))
+                               ^
+2 errors generated.
+make[1]: *** [CMakeFiles/cmTC_22bfb.dir/CurlTests.c.o] Error 1
+make: *** [cmTC_22bfb/fast] Error 2
+
+
+Performing Curl Test HAVE_IOCTLSOCKET_FIONBIO failed with the following output:
+Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /Users/mauricioapaza/Desktop/Build_Octree/cmake-3.27.6/Bootstrap.cmk/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a7df2/fast
+make  -f CMakeFiles/cmTC_a7df2.dir/build.make CMakeFiles/cmTC_a7df2.dir/build
+Building C object CMakeFiles/cmTC_a7df2.dir/CurlTests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang   -w -DHAVE_IOCTLSOCKET_FIONBIO  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_SYS_UTSNAME_H -std=gnu11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -MD -MT CMakeFiles/cmTC_a7df2.dir/CurlTests.c.o -MF CMakeFiles/cmTC_a7df2.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_a7df2.dir/CurlTests.c.o -c /Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/Utilities/cmcurl/CMake/CurlTests.c
+/Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/Utilities/cmcurl/CMake/CurlTests.c:292:17: error: call to undeclared function 'ioctlsocket'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+        if(0 != ioctlsocket(0, FIONBIO, &flags))
+                ^
+/Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/Utilities/cmcurl/CMake/CurlTests.c:292:32: error: use of undeclared identifier 'FIONBIO'
+        if(0 != ioctlsocket(0, FIONBIO, &flags))
+                               ^
+2 errors generated.
+make[1]: *** [CMakeFiles/cmTC_a7df2.dir/CurlTests.c.o] Error 1
+make: *** [cmTC_a7df2/fast] Error 2
+
+
+Performing Curl Test HAVE_SETSOCKOPT_SO_NONBLOCK failed with the following output:
+Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /Users/mauricioapaza/Desktop/Build_Octree/cmake-3.27.6/Bootstrap.cmk/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_48ff0/fast
+make  -f CMakeFiles/cmTC_48ff0.dir/build.make CMakeFiles/cmTC_48ff0.dir/build
+Building C object CMakeFiles/cmTC_48ff0.dir/CurlTests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang   -w -DHAVE_SETSOCKOPT_SO_NONBLOCK  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_SYS_UTSNAME_H -std=gnu11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -MD -MT CMakeFiles/cmTC_48ff0.dir/CurlTests.c.o -MF CMakeFiles/cmTC_48ff0.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_48ff0.dir/CurlTests.c.o -c /Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/Utilities/cmcurl/CMake/CurlTests.c
+/Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/Utilities/cmcurl/CMake/CurlTests.c:384:43: error: use of undeclared identifier 'SO_NONBLOCK'
+        if(0 != setsockopt(0, SOL_SOCKET, SO_NONBLOCK, 0, 0))
+                                          ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_48ff0.dir/CurlTests.c.o] Error 1
+make: *** [cmTC_48ff0/fast] Error 2
+
+
+Performing Curl Test HAVE_O_NONBLOCK failed with the following output:
+Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /Users/mauricioapaza/Desktop/Build_Octree/cmake-3.27.6/Bootstrap.cmk/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bb81f/fast
+make  -f CMakeFiles/cmTC_bb81f.dir/build.make CMakeFiles/cmTC_bb81f.dir/build
+Building C object CMakeFiles/cmTC_bb81f.dir/CurlTests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang   -w -DHAVE_O_NONBLOCK  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_SYS_UTSNAME_H -std=gnu11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -MD -MT CMakeFiles/cmTC_bb81f.dir/CurlTests.c.o -MF CMakeFiles/cmTC_bb81f.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_bb81f.dir/CurlTests.c.o -c /Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/Utilities/cmcurl/CMake/CurlTests.c
+Linking C executable cmTC_bb81f
+/Users/mauricioapaza/Desktop/Build_Octree/cmake-3.27.6/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTC_bb81f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang  -w -DHAVE_O_NONBLOCK  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_SYS_UTSNAME_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_bb81f.dir/CurlTests.c.o -o cmTC_bb81f 
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_bb81f] Error 1
+make: *** [cmTC_bb81f/fast] Error 2
+
+
+Performing Curl Test HAVE_GETHOSTBYNAME_R_3 failed with the following output:
+Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /Users/mauricioapaza/Desktop/Build_Octree/cmake-3.27.6/Bootstrap.cmk/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a5e80/fast
+make  -f CMakeFiles/cmTC_a5e80.dir/build.make CMakeFiles/cmTC_a5e80.dir/build
+Building C object CMakeFiles/cmTC_a5e80.dir/CurlTests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang   -w -DHAVE_GETHOSTBYNAME_R_3  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_SYS_UTSNAME_H -std=gnu11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -MD -MT CMakeFiles/cmTC_a5e80.dir/CurlTests.c.o -MF CMakeFiles/cmTC_a5e80.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_a5e80.dir/CurlTests.c.o -c /Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/Utilities/cmcurl/CMake/CurlTests.c
+/Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/Utilities/cmcurl/CMake/CurlTests.c:99:23: error: variable has incomplete type 'struct hostent_data'
+  struct hostent_data hdata;
+                      ^
+/Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/Utilities/cmcurl/CMake/CurlTests.c:99:10: note: forward declaration of 'struct hostent_data'
+  struct hostent_data hdata;
+         ^
+/Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/Utilities/cmcurl/CMake/CurlTests.c:111:8: error: call to undeclared function 'gethostbyname_r'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  rc = gethostbyname_r(address, &h, &hdata);
+       ^
+2 errors generated.
+make[1]: *** [CMakeFiles/cmTC_a5e80.dir/CurlTests.c.o] Error 1
+make: *** [cmTC_a5e80/fast] Error 2
+
+
+Performing Curl Test HAVE_GETHOSTBYNAME_R_5 failed with the following output:
+Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /Users/mauricioapaza/Desktop/Build_Octree/cmake-3.27.6/Bootstrap.cmk/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c1179/fast
+make  -f CMakeFiles/cmTC_c1179.dir/build.make CMakeFiles/cmTC_c1179.dir/build
+Building C object CMakeFiles/cmTC_c1179.dir/CurlTests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang   -w -DHAVE_GETHOSTBYNAME_R_5  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_SYS_UTSNAME_H -std=gnu11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -MD -MT CMakeFiles/cmTC_c1179.dir/CurlTests.c.o -MF CMakeFiles/cmTC_c1179.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_c1179.dir/CurlTests.c.o -c /Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/Utilities/cmcurl/CMake/CurlTests.c
+/Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/Utilities/cmcurl/CMake/CurlTests.c:114:8: error: call to undeclared function 'gethostbyname_r'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  rc = gethostbyname_r(address, &h, buffer, 8192, &h_errnop);
+       ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_c1179.dir/CurlTests.c.o] Error 1
+make: *** [cmTC_c1179/fast] Error 2
+
+
+Performing Curl Test HAVE_GETHOSTBYNAME_R_6 failed with the following output:
+Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /Users/mauricioapaza/Desktop/Build_Octree/cmake-3.27.6/Bootstrap.cmk/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3693d/fast
+make  -f CMakeFiles/cmTC_3693d.dir/build.make CMakeFiles/cmTC_3693d.dir/build
+Building C object CMakeFiles/cmTC_3693d.dir/CurlTests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang   -w -DHAVE_GETHOSTBYNAME_R_6  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_SYS_UTSNAME_H -std=gnu11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -MD -MT CMakeFiles/cmTC_3693d.dir/CurlTests.c.o -MF CMakeFiles/cmTC_3693d.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_3693d.dir/CurlTests.c.o -c /Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/Utilities/cmcurl/CMake/CurlTests.c
+/Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/Utilities/cmcurl/CMake/CurlTests.c:118:8: error: call to undeclared function 'gethostbyname_r'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  rc = gethostbyname_r(address, &h, buffer, 8192, &hp, &h_errnop);
+       ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_3693d.dir/CurlTests.c.o] Error 1
+make: *** [cmTC_3693d/fast] Error 2
+
+
+Performing Curl Test HAVE_GETHOSTBYNAME_R_3_REENTRANT failed with the following output:
+Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /Users/mauricioapaza/Desktop/Build_Octree/cmake-3.27.6/Bootstrap.cmk/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_16b9a/fast
+make  -f CMakeFiles/cmTC_16b9a.dir/build.make CMakeFiles/cmTC_16b9a.dir/build
+Building C object CMakeFiles/cmTC_16b9a.dir/CurlTests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang   -w -DHAVE_GETHOSTBYNAME_R_3_REENTRANT  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_SYS_UTSNAME_H -std=gnu11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -MD -MT CMakeFiles/cmTC_16b9a.dir/CurlTests.c.o -MF CMakeFiles/cmTC_16b9a.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_16b9a.dir/CurlTests.c.o -c /Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/Utilities/cmcurl/CMake/CurlTests.c
+/Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/Utilities/cmcurl/CMake/CurlTests.c:99:23: error: variable has incomplete type 'struct hostent_data'
+  struct hostent_data hdata;
+                      ^
+/Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/Utilities/cmcurl/CMake/CurlTests.c:99:10: note: forward declaration of 'struct hostent_data'
+  struct hostent_data hdata;
+         ^
+/Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/Utilities/cmcurl/CMake/CurlTests.c:111:8: error: call to undeclared function 'gethostbyname_r'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  rc = gethostbyname_r(address, &h, &hdata);
+       ^
+2 errors generated.
+make[1]: *** [CMakeFiles/cmTC_16b9a.dir/CurlTests.c.o] Error 1
+make: *** [cmTC_16b9a/fast] Error 2
+
+
+Performing Curl Test HAVE_GETHOSTBYNAME_R_5_REENTRANT failed with the following output:
+Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /Users/mauricioapaza/Desktop/Build_Octree/cmake-3.27.6/Bootstrap.cmk/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f6bf7/fast
+make  -f CMakeFiles/cmTC_f6bf7.dir/build.make CMakeFiles/cmTC_f6bf7.dir/build
+Building C object CMakeFiles/cmTC_f6bf7.dir/CurlTests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang   -w -DHAVE_GETHOSTBYNAME_R_5_REENTRANT  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_SYS_UTSNAME_H -std=gnu11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -MD -MT CMakeFiles/cmTC_f6bf7.dir/CurlTests.c.o -MF CMakeFiles/cmTC_f6bf7.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_f6bf7.dir/CurlTests.c.o -c /Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/Utilities/cmcurl/CMake/CurlTests.c
+/Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/Utilities/cmcurl/CMake/CurlTests.c:114:8: error: call to undeclared function 'gethostbyname_r'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  rc = gethostbyname_r(address, &h, buffer, 8192, &h_errnop);
+       ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_f6bf7.dir/CurlTests.c.o] Error 1
+make: *** [cmTC_f6bf7/fast] Error 2
+
+
+Performing Curl Test HAVE_GETHOSTBYNAME_R_6_REENTRANT failed with the following output:
+Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /Users/mauricioapaza/Desktop/Build_Octree/cmake-3.27.6/Bootstrap.cmk/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5e2a1/fast
+make  -f CMakeFiles/cmTC_5e2a1.dir/build.make CMakeFiles/cmTC_5e2a1.dir/build
+Building C object CMakeFiles/cmTC_5e2a1.dir/CurlTests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang   -w -DHAVE_GETHOSTBYNAME_R_6_REENTRANT  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_SYS_UTSNAME_H -std=gnu11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -MD -MT CMakeFiles/cmTC_5e2a1.dir/CurlTests.c.o -MF CMakeFiles/cmTC_5e2a1.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_5e2a1.dir/CurlTests.c.o -c /Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/Utilities/cmcurl/CMake/CurlTests.c
+/Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/Utilities/cmcurl/CMake/CurlTests.c:118:8: error: call to undeclared function 'gethostbyname_r'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  rc = gethostbyname_r(address, &h, buffer, 8192, &hp, &h_errnop);
+       ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_5e2a1.dir/CurlTests.c.o] Error 1
+make: *** [cmTC_5e2a1/fast] Error 2
+
+
+Performing Curl Test HAVE_GLIBC_STRERROR_R failed with the following output:
+Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /Users/mauricioapaza/Desktop/Build_Octree/cmake-3.27.6/Bootstrap.cmk/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_dd601/fast
+make  -f CMakeFiles/cmTC_dd601.dir/build.make CMakeFiles/cmTC_dd601.dir/build
+Building C object CMakeFiles/cmTC_dd601.dir/CurlTests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang   -w -DHAVE_GLIBC_STRERROR_R  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_SYS_UTSNAME_H -std=gnu11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -MD -MT CMakeFiles/cmTC_dd601.dir/CurlTests.c.o -MF CMakeFiles/cmTC_dd601.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_dd601.dir/CurlTests.c.o -c /Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/Utilities/cmcurl/CMake/CurlTests.c
+/Users/mauricioapaza/Desktop/Build_octree/cmake-3.27.6/Utilities/cmcurl/CMake/CurlTests.c:400:51: error: subscripted value is not an array, pointer, or vector
+  check(strerror_r(EACCES, buffer, sizeof(buffer))[0]);
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_dd601.dir/CurlTests.c.o] Error 1
+make: *** [cmTC_dd601/fast] Error 2
+
+
