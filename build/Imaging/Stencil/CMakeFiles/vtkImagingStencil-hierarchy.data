@@ -1,0 +1,8 @@
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Imaging/Stencil/vtkImageStencil.h;vtkImagingStencil
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Imaging/Stencil/vtkImageStencilToImage.h;vtkImagingStencil
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Imaging/Stencil/vtkImageToImageStencil.h;vtkImagingStencil
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Imaging/Stencil/vtkImplicitFunctionToImageStencil.h;vtkImagingStencil
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Imaging/Stencil/vtkLassoStencilSource.h;vtkImagingStencil
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Imaging/Stencil/vtkPolyDataToImageStencil.h;vtkImagingStencil
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Imaging/Stencil/vtkROIStencilSource.h;vtkImagingStencil
+/Users/mauricioapaza/Desktop/Build_octree/build/Imaging/Stencil/vtkImagingStencilModule.h;vtkImagingStencil

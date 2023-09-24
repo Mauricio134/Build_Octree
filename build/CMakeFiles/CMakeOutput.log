@@ -1,0 +1,196 @@
+Checking whether wstring is available compiled with the following output:
+Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/build/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/local/Cellar/cmake/3.27.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_23d13/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_23d13.dir/build.make CMakeFiles/cmTC_23d13.dir/build
+Building CXX object CMakeFiles/cmTC_23d13.dir/kwsysPlatformTestsCXX.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DTEST_KWSYS_STL_HAS_WSTRING  -std=c++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_23d13.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_23d13.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_23d13.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTC_23d13
+/usr/local/Cellar/cmake/3.27.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23d13.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_23d13.dir/kwsysPlatformTestsCXX.cxx.o -o cmTC_23d13 
+
+
+
+Checking whether C compiler has ptrdiff_t in stddef.h compiled with the following output:
+Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/build/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/local/Cellar/cmake/3.27.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cdd42/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_cdd42.dir/build.make CMakeFiles/cmTC_cdd42.dir/build
+Building C object CMakeFiles/cmTC_cdd42.dir/kwsysPlatformTestsC.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DTEST_KWSYS_C_HAS_PTRDIFF_T  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_cdd42.dir/kwsysPlatformTestsC.c.o -MF CMakeFiles/cmTC_cdd42.dir/kwsysPlatformTestsC.c.o.d -o CMakeFiles/cmTC_cdd42.dir/kwsysPlatformTestsC.c.o -c /Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Utilities/KWSys/vtksys/kwsysPlatformTestsC.c
+Linking C executable cmTC_cdd42
+/usr/local/Cellar/cmake/3.27.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cdd42.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_cdd42.dir/kwsysPlatformTestsC.c.o -o cmTC_cdd42 
+
+
+
+Checking whether C compiler has ssize_t in unistd.h compiled with the following output:
+Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/build/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/local/Cellar/cmake/3.27.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6288e/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_6288e.dir/build.make CMakeFiles/cmTC_6288e.dir/build
+Building C object CMakeFiles/cmTC_6288e.dir/kwsysPlatformTestsC.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DTEST_KWSYS_C_HAS_SSIZE_T  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_6288e.dir/kwsysPlatformTestsC.c.o -MF CMakeFiles/cmTC_6288e.dir/kwsysPlatformTestsC.c.o.d -o CMakeFiles/cmTC_6288e.dir/kwsysPlatformTestsC.c.o -c /Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Utilities/KWSys/vtksys/kwsysPlatformTestsC.c
+Linking C executable cmTC_6288e
+/usr/local/Cellar/cmake/3.27.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6288e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_6288e.dir/kwsysPlatformTestsC.c.o -o cmTC_6288e 
+
+
+
+Checking whether C compiler has clock_gettime compiled with the following output:
+Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/build/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/local/Cellar/cmake/3.27.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_416cc/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_416cc.dir/build.make CMakeFiles/cmTC_416cc.dir/build
+Building C object CMakeFiles/cmTC_416cc.dir/kwsysPlatformTestsC.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DTEST_KWSYS_C_HAS_CLOCK_GETTIME_MONOTONIC  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_416cc.dir/kwsysPlatformTestsC.c.o -MF CMakeFiles/cmTC_416cc.dir/kwsysPlatformTestsC.c.o.d -o CMakeFiles/cmTC_416cc.dir/kwsysPlatformTestsC.c.o -c /Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Utilities/KWSys/vtksys/kwsysPlatformTestsC.c
+Linking C executable cmTC_416cc
+/usr/local/Cellar/cmake/3.27.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_416cc.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_416cc.dir/kwsysPlatformTestsC.c.o -o cmTC_416cc 
+
+
+
+Checking whether CXX compiler has setenv compiled with the following output:
+Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/build/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/local/Cellar/cmake/3.27.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_63664/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_63664.dir/build.make CMakeFiles/cmTC_63664.dir/build
+Building CXX object CMakeFiles/cmTC_63664.dir/kwsysPlatformTestsCXX.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DTEST_KWSYS_CXX_HAS_SETENV  -std=c++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_63664.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_63664.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_63664.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTC_63664
+/usr/local/Cellar/cmake/3.27.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63664.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_63664.dir/kwsysPlatformTestsCXX.cxx.o -o cmTC_63664 
+
+
+
+Checking whether CXX compiler has unsetenv compiled with the following output:
+Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/build/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/local/Cellar/cmake/3.27.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_effc7/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_effc7.dir/build.make CMakeFiles/cmTC_effc7.dir/build
+Building CXX object CMakeFiles/cmTC_effc7.dir/kwsysPlatformTestsCXX.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DTEST_KWSYS_CXX_HAS_UNSETENV  -std=c++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_effc7.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_effc7.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_effc7.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTC_effc7
+/usr/local/Cellar/cmake/3.27.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_effc7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_effc7.dir/kwsysPlatformTestsCXX.cxx.o -o cmTC_effc7 
+
+
+
+Checking whether CXX compiler has utimes compiled with the following output:
+Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/build/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/local/Cellar/cmake/3.27.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a6692/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a6692.dir/build.make CMakeFiles/cmTC_a6692.dir/build
+Building CXX object CMakeFiles/cmTC_a6692.dir/kwsysPlatformTestsCXX.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DTEST_KWSYS_CXX_HAS_UTIMES  -std=c++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_a6692.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_a6692.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_a6692.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTC_a6692
+/usr/local/Cellar/cmake/3.27.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6692.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a6692.dir/kwsysPlatformTestsCXX.cxx.o -o cmTC_a6692 
+
+
+
+Checking whether CXX compiler has utimensat compiled with the following output:
+Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/build/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/local/Cellar/cmake/3.27.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_de8d7/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_de8d7.dir/build.make CMakeFiles/cmTC_de8d7.dir/build
+Building CXX object CMakeFiles/cmTC_de8d7.dir/kwsysPlatformTestsCXX.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DTEST_KWSYS_CXX_HAS_UTIMENSAT  -std=c++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_de8d7.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_de8d7.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_de8d7.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTC_de8d7
+/usr/local/Cellar/cmake/3.27.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de8d7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_de8d7.dir/kwsysPlatformTestsCXX.cxx.o -o cmTC_de8d7 
+
+
+
+Checking whether CXX compiler struct stat has st_mtimespec member compiled with the following output:
+Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/build/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/local/Cellar/cmake/3.27.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b123a/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_b123a.dir/build.make CMakeFiles/cmTC_b123a.dir/build
+Building CXX object CMakeFiles/cmTC_b123a.dir/kwsysPlatformTestsCXX.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DTEST_KWSYS_CXX_STAT_HAS_ST_MTIMESPEC  -std=c++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_b123a.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_b123a.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_b123a.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTC_b123a
+/usr/local/Cellar/cmake/3.27.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b123a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b123a.dir/kwsysPlatformTestsCXX.cxx.o -o cmTC_b123a 
+
+
+
+Checking whether backtrace works with this C++ compiler compiled with the following output:
+Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/build/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/local/Cellar/cmake/3.27.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_564c0/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_564c0.dir/build.make CMakeFiles/cmTC_564c0.dir/build
+Building CXX object CMakeFiles/cmTC_564c0.dir/kwsysPlatformTestsCXX.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DTEST_KWSYS_CXX_HAS_BACKTRACE  -std=c++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_564c0.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_564c0.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_564c0.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTC_564c0
+/usr/local/Cellar/cmake/3.27.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_564c0.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_564c0.dir/kwsysPlatformTestsCXX.cxx.o -o cmTC_564c0 
+
+
+
+Checking whether dladdr works with this C++ compiler compiled with the following output:
+Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/build/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/local/Cellar/cmake/3.27.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2be93/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_2be93.dir/build.make CMakeFiles/cmTC_2be93.dir/build
+Building CXX object CMakeFiles/cmTC_2be93.dir/kwsysPlatformTestsCXX.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DTEST_KWSYS_CXX_HAS_DLADDR  -std=c++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_2be93.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_2be93.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_2be93.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTC_2be93
+/usr/local/Cellar/cmake/3.27.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2be93.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2be93.dir/kwsysPlatformTestsCXX.cxx.o -o cmTC_2be93 
+
+
+
+Checking whether cxxabi works with this C++ compiler compiled with the following output:
+Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/build/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/local/Cellar/cmake/3.27.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a9b89/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a9b89.dir/build.make CMakeFiles/cmTC_a9b89.dir/build
+Building CXX object CMakeFiles/cmTC_a9b89.dir/kwsysPlatformTestsCXX.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DTEST_KWSYS_CXX_HAS_CXXABI  -std=c++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_a9b89.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_a9b89.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_a9b89.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTC_a9b89
+/usr/local/Cellar/cmake/3.27.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9b89.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a9b89.dir/kwsysPlatformTestsCXX.cxx.o -o cmTC_a9b89 
+
+
+
+Checking whether CXX compiler has getloadavg compiled with the following output:
+Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/build/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/local/Cellar/cmake/3.27.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6579e/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_6579e.dir/build.make CMakeFiles/cmTC_6579e.dir/build
+Building CXX object CMakeFiles/cmTC_6579e.dir/kwsysPlatformTestsCXX.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DTEST_KWSYS_CXX_HAS_GETLOADAVG  -std=c++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_6579e.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_6579e.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_6579e.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTC_6579e
+/usr/local/Cellar/cmake/3.27.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6579e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_6579e.dir/kwsysPlatformTestsCXX.cxx.o -o cmTC_6579e 
+
+
+
+Determining if the C++ compiler supports __atomic_add_fetch builtin completed with the following output:
+Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/build/Common/Core/CMakeTmp/Sync/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/local/Cellar/cmake/3.27.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_43a59/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_43a59.dir/build.make CMakeFiles/cmTC_43a59.dir/build
+Building CXX object CMakeFiles/cmTC_43a59.dir/vtkTestSyncBuiltins.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=c++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_43a59.dir/vtkTestSyncBuiltins.cxx.o -MF CMakeFiles/cmTC_43a59.dir/vtkTestSyncBuiltins.cxx.o.d -o CMakeFiles/cmTC_43a59.dir/vtkTestSyncBuiltins.cxx.o -c /Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Common/Core/vtkTestSyncBuiltins.cxx
+Linking CXX executable cmTC_43a59
+/usr/local/Cellar/cmake/3.27.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43a59.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_43a59.dir/vtkTestSyncBuiltins.cxx.o -o cmTC_43a59 
+
+
+Determining if getsockname accepts socklen_t type  completed with the following output:
+Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/build/Common/System/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/local/Cellar/cmake/3.27.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c87b1/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_c87b1.dir/build.make CMakeFiles/cmTC_c87b1.dir/build
+Building CXX object CMakeFiles/cmTC_c87b1.dir/vtkTestSocklenT.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=c++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_c87b1.dir/vtkTestSocklenT.cxx.o -MF CMakeFiles/cmTC_c87b1.dir/vtkTestSocklenT.cxx.o.d -o CMakeFiles/cmTC_c87b1.dir/vtkTestSocklenT.cxx.o -c /Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Common/System/vtkTestSocklenT.cxx
+Linking CXX executable cmTC_c87b1
+/usr/local/Cellar/cmake/3.27.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c87b1.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c87b1.dir/vtkTestSocklenT.cxx.o -o cmTC_c87b1 
+
+
+Determining if the C maximum decimal precision for C exists passed with the following output:
+21;0;
+

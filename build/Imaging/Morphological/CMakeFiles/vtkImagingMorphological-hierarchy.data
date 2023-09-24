@@ -1,0 +1,12 @@
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Imaging/Morphological/vtkImageConnectivityFilter.h;vtkImagingMorphological
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Imaging/Morphological/vtkImageConnector.h;vtkImagingMorphological
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Imaging/Morphological/vtkImageContinuousDilate3D.h;vtkImagingMorphological
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Imaging/Morphological/vtkImageContinuousErode3D.h;vtkImagingMorphological
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Imaging/Morphological/vtkImageDilateErode3D.h;vtkImagingMorphological
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Imaging/Morphological/vtkImageIslandRemoval2D.h;vtkImagingMorphological
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Imaging/Morphological/vtkImageNonMaximumSuppression.h;vtkImagingMorphological
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Imaging/Morphological/vtkImageOpenClose3D.h;vtkImagingMorphological
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Imaging/Morphological/vtkImageSeedConnectivity.h;vtkImagingMorphological
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Imaging/Morphological/vtkImageSkeleton2D.h;vtkImagingMorphological
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Imaging/Morphological/vtkImageThresholdConnectivity.h;vtkImagingMorphological
+/Users/mauricioapaza/Desktop/Build_octree/build/Imaging/Morphological/vtkImagingMorphologicalModule.h;vtkImagingMorphological

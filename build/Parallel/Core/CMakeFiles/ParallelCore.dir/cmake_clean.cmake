@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "../../lib/.1"
+  "../../lib/libvtkParallelCore-9.3.1.dylib"
+  "../../lib/libvtkParallelCore-9.3.9.3.dylib"
+  "../../lib/libvtkParallelCore-9.3.dylib"
+  "../../lib/libvtkParallelCore-9.3.pdb"
+  "CMakeFiles/ParallelCore.dir/vtkCommunicator.cxx.o"
+  "CMakeFiles/ParallelCore.dir/vtkCommunicator.cxx.o.d"
+  "CMakeFiles/ParallelCore.dir/vtkDummyCommunicator.cxx.o"
+  "CMakeFiles/ParallelCore.dir/vtkDummyCommunicator.cxx.o.d"
+  "CMakeFiles/ParallelCore.dir/vtkDummyController.cxx.o"
+  "CMakeFiles/ParallelCore.dir/vtkDummyController.cxx.o.d"
+  "CMakeFiles/ParallelCore.dir/vtkFieldDataSerializer.cxx.o"
+  "CMakeFiles/ParallelCore.dir/vtkFieldDataSerializer.cxx.o.d"
+  "CMakeFiles/ParallelCore.dir/vtkMultiProcessController.cxx.o"
+  "CMakeFiles/ParallelCore.dir/vtkMultiProcessController.cxx.o.d"
+  "CMakeFiles/ParallelCore.dir/vtkMultiProcessStream.cxx.o"
+  "CMakeFiles/ParallelCore.dir/vtkMultiProcessStream.cxx.o.d"
+  "CMakeFiles/ParallelCore.dir/vtkPDirectory.cxx.o"
+  "CMakeFiles/ParallelCore.dir/vtkPDirectory.cxx.o.d"
+  "CMakeFiles/ParallelCore.dir/vtkPSystemTools.cxx.o"
+  "CMakeFiles/ParallelCore.dir/vtkPSystemTools.cxx.o.d"
+  "CMakeFiles/ParallelCore.dir/vtkProcess.cxx.o"
+  "CMakeFiles/ParallelCore.dir/vtkProcess.cxx.o.d"
+  "CMakeFiles/ParallelCore.dir/vtkProcessGroup.cxx.o"
+  "CMakeFiles/ParallelCore.dir/vtkProcessGroup.cxx.o.d"
+  "CMakeFiles/ParallelCore.dir/vtkSocketCommunicator.cxx.o"
+  "CMakeFiles/ParallelCore.dir/vtkSocketCommunicator.cxx.o.d"
+  "CMakeFiles/ParallelCore.dir/vtkSocketController.cxx.o"
+  "CMakeFiles/ParallelCore.dir/vtkSocketController.cxx.o.d"
+  "CMakeFiles/ParallelCore.dir/vtkSubCommunicator.cxx.o"
+  "CMakeFiles/ParallelCore.dir/vtkSubCommunicator.cxx.o.d"
+  "CMakeFiles/ParallelCore.dir/vtkSubGroup.cxx.o"
+  "CMakeFiles/ParallelCore.dir/vtkSubGroup.cxx.o.d"
+  "CMakeFiles/ParallelCore.dir/vtkThreadedCallbackQueue.cxx.o"
+  "CMakeFiles/ParallelCore.dir/vtkThreadedCallbackQueue.cxx.o.d"
+  "vtkSocketCommunicatorHash.h"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/ParallelCore.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,17 @@
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Common/Transforms/vtkAbstractTransform.h;vtkCommonTransforms
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Common/Transforms/vtkCylindricalTransform.h;vtkCommonTransforms
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Common/Transforms/vtkGeneralTransform.h;vtkCommonTransforms
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Common/Transforms/vtkHomogeneousTransform.h;vtkCommonTransforms
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Common/Transforms/vtkIdentityTransform.h;vtkCommonTransforms
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Common/Transforms/vtkLandmarkTransform.h;vtkCommonTransforms
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Common/Transforms/vtkLinearTransform.h;vtkCommonTransforms
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Common/Transforms/vtkMatrixToHomogeneousTransform.h;vtkCommonTransforms
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Common/Transforms/vtkMatrixToLinearTransform.h;vtkCommonTransforms
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Common/Transforms/vtkPerspectiveTransform.h;vtkCommonTransforms
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Common/Transforms/vtkSphericalTransform.h;vtkCommonTransforms
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Common/Transforms/vtkThinPlateSplineTransform.h;vtkCommonTransforms
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Common/Transforms/vtkTransform.h;vtkCommonTransforms
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Common/Transforms/vtkTransform2D.h;vtkCommonTransforms
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Common/Transforms/vtkTransformCollection.h;vtkCommonTransforms
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Common/Transforms/vtkWarpTransform.h;vtkCommonTransforms
+/Users/mauricioapaza/Desktop/Build_octree/build/Common/Transforms/vtkCommonTransformsModule.h;vtkCommonTransforms

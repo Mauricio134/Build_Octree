@@ -1,0 +1,17 @@
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Parallel/Core/vtkCommunicator.h;vtkParallelCore
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Parallel/Core/vtkDummyCommunicator.h;vtkParallelCore
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Parallel/Core/vtkDummyController.h;vtkParallelCore
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Parallel/Core/vtkFieldDataSerializer.h;vtkParallelCore
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Parallel/Core/vtkMultiProcessController.h;vtkParallelCore
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Parallel/Core/vtkMultiProcessStream.h;vtkParallelCore
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Parallel/Core/vtkPDirectory.h;vtkParallelCore
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Parallel/Core/vtkProcess.h;vtkParallelCore
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Parallel/Core/vtkProcessGroup.h;vtkParallelCore
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Parallel/Core/vtkPSystemTools.h;vtkParallelCore
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Parallel/Core/vtkSocketCommunicator.h;vtkParallelCore
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Parallel/Core/vtkSocketController.h;vtkParallelCore
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Parallel/Core/vtkSubCommunicator.h;vtkParallelCore
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Parallel/Core/vtkSubGroup.h;vtkParallelCore
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Parallel/Core/vtkThreadedCallbackQueue.h;vtkParallelCore
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Parallel/Core/vtkThreadedTaskQueue.h;vtkParallelCore
+/Users/mauricioapaza/Desktop/Build_octree/build/Parallel/Core/vtkParallelCoreModule.h;vtkParallelCore

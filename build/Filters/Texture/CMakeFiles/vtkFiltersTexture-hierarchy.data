@@ -1,0 +1,9 @@
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Filters/Texture/vtkImplicitTextureCoords.h;vtkFiltersTexture
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Filters/Texture/vtkScalarsToTextureFilter.h;vtkFiltersTexture
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Filters/Texture/vtkTextureMapToCylinder.h;vtkFiltersTexture
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Filters/Texture/vtkTextureMapToPlane.h;vtkFiltersTexture
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Filters/Texture/vtkTextureMapToSphere.h;vtkFiltersTexture
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Filters/Texture/vtkThresholdTextureCoords.h;vtkFiltersTexture
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Filters/Texture/vtkTransformTextureCoords.h;vtkFiltersTexture
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Filters/Texture/vtkTriangularTCoords.h;vtkFiltersTexture
+/Users/mauricioapaza/Desktop/Build_octree/build/Filters/Texture/vtkFiltersTextureModule.h;vtkFiltersTexture

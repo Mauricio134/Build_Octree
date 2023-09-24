@@ -1,0 +1,23 @@
+NAME
+  VTK::FiltersReduction
+LIBRARY_NAME
+  vtkFiltersReduction
+KIT
+  VTK::Filters
+GROUPS
+  StandAlone
+SPDX_LICENSE_IDENTIFIER
+  BSD-3-Clause
+SPDX_COPYRIGHT_TEXT
+  Copyright (c) Ken Martin, Will Schroeder, Bill Lorensen
+DEPENDS
+  VTK::CommonCore
+  VTK::CommonExecutionModel
+  VTK::CommonImplicitArrays
+PRIVATE_DEPENDS
+  VTK::CommonDataModel
+TEST_DEPENDS
+  VTK::CommonImplicitArrays
+  VTK::CommonSystem
+  VTK::FiltersSources
+  VTK::TestingCore

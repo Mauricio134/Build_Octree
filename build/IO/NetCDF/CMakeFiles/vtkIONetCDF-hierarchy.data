@@ -1,0 +1,10 @@
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/IO/NetCDF/vtkMPASReader.h;vtkIONetCDF
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/IO/NetCDF/vtkNetCDFCAMReader.h;vtkIONetCDF
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/IO/NetCDF/vtkNetCDFCFReader.h;vtkIONetCDF
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/IO/NetCDF/vtkNetCDFCFWriter.h;vtkIONetCDF
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/IO/NetCDF/vtkNetCDFPOPReader.h;vtkIONetCDF
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/IO/NetCDF/vtkNetCDFReader.h;vtkIONetCDF
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/IO/NetCDF/vtkNetCDFUGRIDReader.h;vtkIONetCDF
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/IO/NetCDF/vtkSLACParticleReader.h;vtkIONetCDF
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/IO/NetCDF/vtkSLACReader.h;vtkIONetCDF
+/Users/mauricioapaza/Desktop/Build_octree/build/IO/NetCDF/vtkIONetCDFModule.h;vtkIONetCDF

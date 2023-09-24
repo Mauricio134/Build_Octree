@@ -1,0 +1,226 @@
+Checking whether CXX compiler has environ in stdlib.h failed to compile with the following output:
+Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/build/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/local/Cellar/cmake/3.27.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_04029/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_04029.dir/build.make CMakeFiles/cmTC_04029.dir/build
+Building CXX object CMakeFiles/cmTC_04029.dir/kwsysPlatformTestsCXX.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DTEST_KWSYS_CXX_HAS_ENVIRON_IN_STDLIB_H  -std=c++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_04029.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_04029.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_04029.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:53:13: error: use of undeclared identifier 'environ'
+  char* e = environ[0];
+            ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_04029.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make: *** [cmTC_04029/fast] Error 2
+
+
+
+Checking whether CXX compiler struct stat has st_mtim member failed to compile with the following output:
+Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/build/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/local/Cellar/cmake/3.27.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b501e/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_b501e.dir/build.make CMakeFiles/cmTC_b501e.dir/build
+Building CXX object CMakeFiles/cmTC_b501e.dir/kwsysPlatformTestsCXX.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DTEST_KWSYS_CXX_STAT_HAS_ST_MTIM  -std=c++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_b501e.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_b501e.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_b501e.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:12:15: error: no member named 'st_mtim' in 'stat'
+  (void)stat1.st_mtim.tv_sec;
+        ~~~~~ ^
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:13:15: error: no member named 'st_mtim' in 'stat'
+  (void)stat1.st_mtim.tv_nsec;
+        ~~~~~ ^
+2 errors generated.
+make[1]: *** [CMakeFiles/cmTC_b501e.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make: *** [cmTC_b501e/fast] Error 2
+
+
+
+Checking whether CXX compiler has rlimit64 failed to compile with the following output:
+Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/build/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/local/Cellar/cmake/3.27.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_443cb/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_443cb.dir/build.make CMakeFiles/cmTC_443cb.dir/build
+Building CXX object CMakeFiles/cmTC_443cb.dir/kwsysPlatformTestsCXX.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DTEST_KWSYS_CXX_HAS_RLIMIT64  -std=c++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_443cb.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_443cb.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_443cb.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:75:19: error: variable has incomplete type 'struct rlimit64'
+  struct rlimit64 rlim;
+                  ^
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:75:10: note: forward declaration of 'rlimit64'
+  struct rlimit64 rlim;
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_443cb.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make: *** [cmTC_443cb/fast] Error 2
+
+
+
+Checking whether <ext/stdio_filebuf.h> is available failed to compile with the following output:
+Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/build/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/local/Cellar/cmake/3.27.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2d45c/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_2d45c.dir/build.make CMakeFiles/cmTC_2d45c.dir/build
+Building CXX object CMakeFiles/cmTC_2d45c.dir/kwsysPlatformTestsCXX.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DTEST_KWSYS_CXX_HAS_EXT_STDIO_FILEBUF_H  -std=c++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_2d45c.dir/kwsysPlatformTestsCXX.cxx.o -MF CMakeFiles/cmTC_2d45c.dir/kwsysPlatformTestsCXX.cxx.o.d -o CMakeFiles/cmTC_2d45c.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:169:12: fatal error: 'ext/stdio_filebuf.h' file not found
+#  include <ext/stdio_filebuf.h>
+           ^~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_2d45c.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make: *** [cmTC_2d45c/fast] Error 2
+
+
+
+Performing Other Test HAVE_OFF64_T failed with the following output:
+Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/local/Cellar/cmake/3.27.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_806f0/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_806f0.dir/build.make CMakeFiles/cmTC_806f0.dir/build
+Building C object CMakeFiles/cmTC_806f0.dir/HDFTests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fPIE   -DHAVE_OFF64_T  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -MD -MT CMakeFiles/cmTC_806f0.dir/HDFTests.c.o -MF CMakeFiles/cmTC_806f0.dir/HDFTests.c.o.d -o CMakeFiles/cmTC_806f0.dir/HDFTests.c.o -c /Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/ThirdParty/hdf5/vtkhdf5/config/cmake_ext_mod/HDFTests.c
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/ThirdParty/hdf5/vtkhdf5/config/cmake_ext_mod/HDFTests.c:184:3: error: unknown type name 'off64_t'; did you mean 'off_t'?
+  off64_t n = 0;
+  ^~~~~~~
+  off_t
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_off_t.h:31:33: note: 'off_t' declared here
+typedef __darwin_off_t          off_t;
+                                ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_806f0.dir/HDFTests.c.o] Error 1
+make: *** [cmTC_806f0/fast] Error 2
+
+
+Performing Other Test HAVE_TM_ZONE failed with the following output:
+Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/local/Cellar/cmake/3.27.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d0339/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d0339.dir/build.make CMakeFiles/cmTC_d0339.dir/build
+Building C object CMakeFiles/cmTC_d0339.dir/HDFTests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fPIE   -DHAVE_TM_ZONE  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -MD -MT CMakeFiles/cmTC_d0339.dir/HDFTests.c.o -MF CMakeFiles/cmTC_d0339.dir/HDFTests.c.o.d -o CMakeFiles/cmTC_d0339.dir/HDFTests.c.o -c /Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/ThirdParty/hdf5/vtkhdf5/config/cmake_ext_mod/HDFTests.c
+Linking C executable cmTC_d0339
+/usr/local/Cellar/cmake/3.27.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0339.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d0339.dir/HDFTests.c.o -o cmTC_d0339  -lm 
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_d0339] Error 1
+make: *** [cmTC_d0339/fast] Error 2
+
+
+Performing Other Test HAVE_STRUCT_TM_TM_ZONE failed with the following output:
+Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/local/Cellar/cmake/3.27.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f184e/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f184e.dir/build.make CMakeFiles/cmTC_f184e.dir/build
+Building C object CMakeFiles/cmTC_f184e.dir/HDFTests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fPIE   -DHAVE_STRUCT_TM_TM_ZONE  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -MD -MT CMakeFiles/cmTC_f184e.dir/HDFTests.c.o -MF CMakeFiles/cmTC_f184e.dir/HDFTests.c.o.d -o CMakeFiles/cmTC_f184e.dir/HDFTests.c.o -c /Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/ThirdParty/hdf5/vtkhdf5/config/cmake_ext_mod/HDFTests.c
+Linking C executable cmTC_f184e
+/usr/local/Cellar/cmake/3.27.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f184e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f184e.dir/HDFTests.c.o -o cmTC_f184e  -lm 
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_f184e] Error 1
+make: *** [cmTC_f184e/fast] Error 2
+
+
+Performing Other Test HAVE_SOCKLEN_T failed with the following output:
+Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/local/Cellar/cmake/3.27.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_33bea/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_33bea.dir/build.make CMakeFiles/cmTC_33bea.dir/build
+Building C object CMakeFiles/cmTC_33bea.dir/HDFTests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fPIE   -DHAVE_SOCKLEN_T  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -MD -MT CMakeFiles/cmTC_33bea.dir/HDFTests.c.o -MF CMakeFiles/cmTC_33bea.dir/HDFTests.c.o.d -o CMakeFiles/cmTC_33bea.dir/HDFTests.c.o -c /Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/ThirdParty/hdf5/vtkhdf5/config/cmake_ext_mod/HDFTests.c
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/ThirdParty/hdf5/vtkhdf5/config/cmake_ext_mod/HDFTests.c:160:13: error: use of undeclared identifier 'socklen_t'
+SIMPLE_TEST(socklen_t foo);
+            ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_33bea.dir/HDFTests.c.o] Error 1
+make: *** [cmTC_33bea/fast] Error 2
+
+
+Test H5_LDOUBLE_TO_LONG_SPECIAL Run failed with the following output and exit code:
+ Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/local/Cellar/cmake/3.27.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5c422/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_5c422.dir/build.make CMakeFiles/cmTC_5c422.dir/build
+Building C object CMakeFiles/cmTC_5c422.dir/ConversionTests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DH5_LDOUBLE_TO_LONG_SPECIAL_TEST -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_5c422.dir/ConversionTests.c.o -MF CMakeFiles/cmTC_5c422.dir/ConversionTests.c.o.d -o CMakeFiles/cmTC_5c422.dir/ConversionTests.c.o -c /Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/ThirdParty/hdf5/vtkhdf5/config/cmake/ConversionTests.c
+Linking C executable cmTC_5c422
+/usr/local/Cellar/cmake/3.27.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c422.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DH5_LDOUBLE_TO_LONG_SPECIAL_TEST -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_5c422.dir/ConversionTests.c.o -o cmTC_5c422 
+
+
+Test H5_LONG_TO_LDOUBLE_SPECIAL Run failed with the following output and exit code:
+ Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/local/Cellar/cmake/3.27.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d5cb2/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d5cb2.dir/build.make CMakeFiles/cmTC_d5cb2.dir/build
+Building C object CMakeFiles/cmTC_d5cb2.dir/ConversionTests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DH5_LONG_TO_LDOUBLE_SPECIAL_TEST -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_d5cb2.dir/ConversionTests.c.o -MF CMakeFiles/cmTC_d5cb2.dir/ConversionTests.c.o.d -o CMakeFiles/cmTC_d5cb2.dir/ConversionTests.c.o -c /Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/ThirdParty/hdf5/vtkhdf5/config/cmake/ConversionTests.c
+Linking C executable cmTC_d5cb2
+/usr/local/Cellar/cmake/3.27.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5cb2.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DH5_LONG_TO_LDOUBLE_SPECIAL_TEST -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d5cb2.dir/ConversionTests.c.o -o cmTC_d5cb2 
+
+
+Test H5_DISABLE_SOME_LDOUBLE_CONV Run failed with the following output and exit code:
+ Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/local/Cellar/cmake/3.27.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e46cf/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e46cf.dir/build.make CMakeFiles/cmTC_e46cf.dir/build
+Building C object CMakeFiles/cmTC_e46cf.dir/ConversionTests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DH5_DISABLE_SOME_LDOUBLE_CONV_TEST -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_e46cf.dir/ConversionTests.c.o -MF CMakeFiles/cmTC_e46cf.dir/ConversionTests.c.o.d -o CMakeFiles/cmTC_e46cf.dir/ConversionTests.c.o -c /Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/ThirdParty/hdf5/vtkhdf5/config/cmake/ConversionTests.c
+Linking C executable cmTC_e46cf
+/usr/local/Cellar/cmake/3.27.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e46cf.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DH5_DISABLE_SOME_LDOUBLE_CONV_TEST -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e46cf.dir/ConversionTests.c.o -o cmTC_e46cf 
+
+
+Determining if the HDF5 Multi_Dataset exists failed with the following output:
+Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/local/Cellar/cmake/3.27.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_20782/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_20782.dir/build.make CMakeFiles/cmTC_20782.dir/build
+Building C object CMakeFiles/cmTC_20782.dir/test_HDF.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -std=gnu99 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_20782.dir/test_HDF.c.o -MF CMakeFiles/cmTC_20782.dir/test_HDF.c.o.d -o CMakeFiles/cmTC_20782.dir/test_HDF.c.o -c /Users/mauricioapaza/Desktop/Build_octree/build/CMakeFiles/CMakeTmp/test_HDF.c
+/Users/mauricioapaza/Desktop/Build_octree/build/CMakeFiles/CMakeTmp/test_HDF.c:2:11: fatal error: 'hdf5.h' file not found
+ #include "hdf5.h"
+          ^~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_20782.dir/test_HDF.c.o] Error 1
+make: *** [cmTC_20782/fast] Error 2
+
+
+
+Determining if the HDF5 Collective_metadata exists failed with the following output:
+Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/local/Cellar/cmake/3.27.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ee6b8/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ee6b8.dir/build.make CMakeFiles/cmTC_ee6b8.dir/build
+Building C object CMakeFiles/cmTC_ee6b8.dir/test_HDF.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -std=gnu99 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_ee6b8.dir/test_HDF.c.o -MF CMakeFiles/cmTC_ee6b8.dir/test_HDF.c.o.d -o CMakeFiles/cmTC_ee6b8.dir/test_HDF.c.o -c /Users/mauricioapaza/Desktop/Build_octree/build/CMakeFiles/CMakeTmp/test_HDF.c
+/Users/mauricioapaza/Desktop/Build_octree/build/CMakeFiles/CMakeTmp/test_HDF.c:2:11: fatal error: 'hdf5.h' file not found
+ #include "hdf5.h"
+          ^~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_ee6b8.dir/test_HDF.c.o] Error 1
+make: *** [cmTC_ee6b8/fast] Error 2
+
+
+
+Determining if the HDF5 H5Pset_file_space_strategy exists failed with the following output:
+Change Dir: '/Users/mauricioapaza/Desktop/Build_octree/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/local/Cellar/cmake/3.27.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7188b/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_7188b.dir/build.make CMakeFiles/cmTC_7188b.dir/build
+Building C object CMakeFiles/cmTC_7188b.dir/test_HDF.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -std=gnu99 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_7188b.dir/test_HDF.c.o -MF CMakeFiles/cmTC_7188b.dir/test_HDF.c.o.d -o CMakeFiles/cmTC_7188b.dir/test_HDF.c.o -c /Users/mauricioapaza/Desktop/Build_octree/build/CMakeFiles/CMakeTmp/test_HDF.c
+/Users/mauricioapaza/Desktop/Build_octree/build/CMakeFiles/CMakeTmp/test_HDF.c:2:11: fatal error: 'hdf5.h' file not found
+ #include "hdf5.h"
+          ^~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_7188b.dir/test_HDF.c.o] Error 1
+make: *** [cmTC_7188b/fast] Error 2
+
+
+

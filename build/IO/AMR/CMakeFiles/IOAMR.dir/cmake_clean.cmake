@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "../../lib/.1"
+  "../../lib/libvtkIOAMR-9.3.1.dylib"
+  "../../lib/libvtkIOAMR-9.3.9.3.dylib"
+  "../../lib/libvtkIOAMR-9.3.dylib"
+  "../../lib/libvtkIOAMR-9.3.pdb"
+  "CMakeFiles/IOAMR.dir/vtkAMRBaseParticlesReader.cxx.o"
+  "CMakeFiles/IOAMR.dir/vtkAMRBaseParticlesReader.cxx.o.d"
+  "CMakeFiles/IOAMR.dir/vtkAMRBaseReader.cxx.o"
+  "CMakeFiles/IOAMR.dir/vtkAMRBaseReader.cxx.o.d"
+  "CMakeFiles/IOAMR.dir/vtkAMRDataSetCache.cxx.o"
+  "CMakeFiles/IOAMR.dir/vtkAMRDataSetCache.cxx.o.d"
+  "CMakeFiles/IOAMR.dir/vtkAMREnzoParticlesReader.cxx.o"
+  "CMakeFiles/IOAMR.dir/vtkAMREnzoParticlesReader.cxx.o.d"
+  "CMakeFiles/IOAMR.dir/vtkAMREnzoReader.cxx.o"
+  "CMakeFiles/IOAMR.dir/vtkAMREnzoReader.cxx.o.d"
+  "CMakeFiles/IOAMR.dir/vtkAMREnzoReaderInternal.cxx.o"
+  "CMakeFiles/IOAMR.dir/vtkAMREnzoReaderInternal.cxx.o.d"
+  "CMakeFiles/IOAMR.dir/vtkAMRFlashParticlesReader.cxx.o"
+  "CMakeFiles/IOAMR.dir/vtkAMRFlashParticlesReader.cxx.o.d"
+  "CMakeFiles/IOAMR.dir/vtkAMRFlashReader.cxx.o"
+  "CMakeFiles/IOAMR.dir/vtkAMRFlashReader.cxx.o.d"
+  "CMakeFiles/IOAMR.dir/vtkAMRFlashReaderInternal.cxx.o"
+  "CMakeFiles/IOAMR.dir/vtkAMRFlashReaderInternal.cxx.o.d"
+  "CMakeFiles/IOAMR.dir/vtkAMRVelodyneReader.cxx.o"
+  "CMakeFiles/IOAMR.dir/vtkAMRVelodyneReader.cxx.o.d"
+  "CMakeFiles/IOAMR.dir/vtkAMRVelodyneReaderInternal.cxx.o"
+  "CMakeFiles/IOAMR.dir/vtkAMRVelodyneReaderInternal.cxx.o.d"
+  "CMakeFiles/IOAMR.dir/vtkAMReXGridReader.cxx.o"
+  "CMakeFiles/IOAMR.dir/vtkAMReXGridReader.cxx.o.d"
+  "CMakeFiles/IOAMR.dir/vtkAMReXGridReaderInternal.cxx.o"
+  "CMakeFiles/IOAMR.dir/vtkAMReXGridReaderInternal.cxx.o.d"
+  "CMakeFiles/IOAMR.dir/vtkAMReXParticlesReader.cxx.o"
+  "CMakeFiles/IOAMR.dir/vtkAMReXParticlesReader.cxx.o.d"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/IOAMR.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

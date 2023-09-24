@@ -1,0 +1,11 @@
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Imaging/Color/vtkImageHSIToRGB.h;vtkImagingColor
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Imaging/Color/vtkImageHSVToRGB.h;vtkImagingColor
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Imaging/Color/vtkImageLuminance.h;vtkImagingColor
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Imaging/Color/vtkImageMapToRGBA.h;vtkImagingColor
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Imaging/Color/vtkImageMapToWindowLevelColors.h;vtkImagingColor
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Imaging/Color/vtkImageQuantizeRGBToIndex.h;vtkImagingColor
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Imaging/Color/vtkImageRGBToHSI.h;vtkImagingColor
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Imaging/Color/vtkImageRGBToHSV.h;vtkImagingColor
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Imaging/Color/vtkImageRGBToYIQ.h;vtkImagingColor
+/Users/mauricioapaza/Desktop/Build_octree/VTK-9.3.0.rc1/Imaging/Color/vtkImageYIQToRGB.h;vtkImagingColor
+/Users/mauricioapaza/Desktop/Build_octree/build/Imaging/Color/vtkImagingColorModule.h;vtkImagingColor

@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "../../lib/.1"
+  "../../lib/libvtkImagingHybrid-9.3.1.dylib"
+  "../../lib/libvtkImagingHybrid-9.3.9.3.dylib"
+  "../../lib/libvtkImagingHybrid-9.3.dylib"
+  "../../lib/libvtkImagingHybrid-9.3.pdb"
+  "CMakeFiles/ImagingHybrid.dir/vtkBooleanTexture.cxx.o"
+  "CMakeFiles/ImagingHybrid.dir/vtkBooleanTexture.cxx.o.d"
+  "CMakeFiles/ImagingHybrid.dir/vtkCheckerboardSplatter.cxx.o"
+  "CMakeFiles/ImagingHybrid.dir/vtkCheckerboardSplatter.cxx.o.d"
+  "CMakeFiles/ImagingHybrid.dir/vtkFastSplatter.cxx.o"
+  "CMakeFiles/ImagingHybrid.dir/vtkFastSplatter.cxx.o.d"
+  "CMakeFiles/ImagingHybrid.dir/vtkGaussianSplatter.cxx.o"
+  "CMakeFiles/ImagingHybrid.dir/vtkGaussianSplatter.cxx.o.d"
+  "CMakeFiles/ImagingHybrid.dir/vtkImageCursor3D.cxx.o"
+  "CMakeFiles/ImagingHybrid.dir/vtkImageCursor3D.cxx.o.d"
+  "CMakeFiles/ImagingHybrid.dir/vtkImageRectilinearWipe.cxx.o"
+  "CMakeFiles/ImagingHybrid.dir/vtkImageRectilinearWipe.cxx.o.d"
+  "CMakeFiles/ImagingHybrid.dir/vtkImageToPoints.cxx.o"
+  "CMakeFiles/ImagingHybrid.dir/vtkImageToPoints.cxx.o.d"
+  "CMakeFiles/ImagingHybrid.dir/vtkPointLoad.cxx.o"
+  "CMakeFiles/ImagingHybrid.dir/vtkPointLoad.cxx.o.d"
+  "CMakeFiles/ImagingHybrid.dir/vtkSampleFunction.cxx.o"
+  "CMakeFiles/ImagingHybrid.dir/vtkSampleFunction.cxx.o.d"
+  "CMakeFiles/ImagingHybrid.dir/vtkShepardMethod.cxx.o"
+  "CMakeFiles/ImagingHybrid.dir/vtkShepardMethod.cxx.o.d"
+  "CMakeFiles/ImagingHybrid.dir/vtkSliceCubes.cxx.o"
+  "CMakeFiles/ImagingHybrid.dir/vtkSliceCubes.cxx.o.d"
+  "CMakeFiles/ImagingHybrid.dir/vtkSurfaceReconstructionFilter.cxx.o"
+  "CMakeFiles/ImagingHybrid.dir/vtkSurfaceReconstructionFilter.cxx.o.d"
+  "CMakeFiles/ImagingHybrid.dir/vtkTriangularTexture.cxx.o"
+  "CMakeFiles/ImagingHybrid.dir/vtkTriangularTexture.cxx.o.d"
+  "CMakeFiles/ImagingHybrid.dir/vtkVoxelModeller.cxx.o"
+  "CMakeFiles/ImagingHybrid.dir/vtkVoxelModeller.cxx.o.d"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/ImagingHybrid.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
