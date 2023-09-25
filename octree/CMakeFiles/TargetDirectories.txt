@@ -1,3 +1,3 @@
-/Users/mauricioapaza/Desktop/Build_octree/octree/CMakeFiles/Cube.dir
-/Users/mauricioapaza/Desktop/Build_octree/octree/CMakeFiles/edit_cache.dir
-/Users/mauricioapaza/Desktop/Build_octree/octree/CMakeFiles/rebuild_cache.dir
+/Users/mauricioapaza/Desktop/Build_Octree/octree/CMakeFiles/Cube.dir
+/Users/mauricioapaza/Desktop/Build_Octree/octree/CMakeFiles/edit_cache.dir
+/Users/mauricioapaza/Desktop/Build_Octree/octree/CMakeFiles/rebuild_cache.dir

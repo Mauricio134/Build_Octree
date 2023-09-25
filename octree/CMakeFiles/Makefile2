@@ -57,7 +57,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/mauricioapaza/Desktop/Build_octree/octree
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mauricioapaza/Desktop/Build_octree/octree
+CMAKE_BINARY_DIR = /Users/mauricioapaza/Desktop/Build_Octree/octree
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/Cube.dir/clean
 CMakeFiles/Cube.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cube.dir/build.make CMakeFiles/Cube.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cube.dir/build.make CMakeFiles/Cube.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/mauricioapaza/Desktop/Build_octree/octree/CMakeFiles --progress-num=1,2 "Built target Cube"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/mauricioapaza/Desktop/Build_Octree/octree/CMakeFiles --progress-num=1,2 "Built target Cube"
 .PHONY : CMakeFiles/Cube.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Cube.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mauricioapaza/Desktop/Build_octree/octree/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mauricioapaza/Desktop/Build_Octree/octree/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Cube.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mauricioapaza/Desktop/Build_octree/octree/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mauricioapaza/Desktop/Build_Octree/octree/CMakeFiles 0
 .PHONY : CMakeFiles/Cube.dir/rule
 
 # Convenience name for target.

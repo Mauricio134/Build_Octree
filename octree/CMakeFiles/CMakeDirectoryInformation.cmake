@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/Users/mauricioapaza/Desktop/Build_octree/octree")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/Users/mauricioapaza/Desktop/Build_octree/octree")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/Users/mauricioapaza/Desktop/Build_Octree/octree")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

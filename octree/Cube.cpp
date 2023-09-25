@@ -263,7 +263,6 @@ int main(int, char *[])
         // Configurar las dimensiones del cubo basado en la altura
         cubeSource->SetBounds(cubos[i].x, cubos[i].x + cubos[i].h, cubos[i].y, cubos[i].y + cubos[i].h, cubos[i].z, cubos[i].z + cubos[i].h);
 
-
         // Crear un mapper y un actor para el cubo
         vtkSmartPointer<vtkPolyDataMapper> cubeMapper = vtkSmartPointer<vtkPolyDataMapper>::New();
         cubeMapper->SetInputConnection(cubeSource->GetOutputPort());
