@@ -166,6 +166,7 @@ int main(int argc, char* argv[])
     vtkIdType pointId = 0;
     vtkSmartPointer<vtkCellArray> vertices = vtkSmartPointer<vtkCellArray>::New();
     for(auto poi:puntos){
+        cout << poi.first << " " << poi.second << endl;
         puntitos->InsertNextPoint(poi.first, poi.second, 0.0);
         vertices->InsertNextCell(1, &pointId);
         pointId++;
