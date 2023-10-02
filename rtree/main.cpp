@@ -113,8 +113,9 @@ int main(int argc, char* argv[])
 	}
 	rtree.getMBRs(objects_n);
 	print(1, objects_n, output);
-	cout << endl;
 	rtree.LEAF_(recta, puntos);
+	cout << endl;
+	cout << rtree.S(104,54) << endl;
 
     vtkSmartPointer<vtkRenderer> renderer = vtkSmartPointer<vtkRenderer>::New();
     vtkSmartPointer<vtkRenderWindow> renderWindow = vtkSmartPointer<vtkRenderWindow>::New();
@@ -166,7 +167,6 @@ int main(int argc, char* argv[])
     vtkIdType pointId = 0;
     vtkSmartPointer<vtkCellArray> vertices = vtkSmartPointer<vtkCellArray>::New();
     for(auto poi:puntos){
-        cout << poi.first << " " << poi.second << endl;
         puntitos->InsertNextPoint(poi.first, poi.second, 0.0);
         vertices->InsertNextCell(1, &pointId);
         pointId++;

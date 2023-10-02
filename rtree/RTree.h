@@ -2,16 +2,6 @@
 #ifndef RTREE_H
 #define RTREE_H
 
-#include <vtkSmartPointer.h>
-#include <vtkRenderWindow.h>
-#include <vtkRenderer.h>
-#include <vtkRenderWindowInteractor.h>
-#include <vtkPolyData.h>
-#include <vtkCellArray.h>
-#include <vtkPoints.h>
-#include <vtkPolyDataMapper.h>
-#include <vtkActor.h>
-
 #include <stdio.h>
 #include <math.h>
 #include <assert.h>
@@ -127,6 +117,9 @@ public:
 
 	void LEAF(Node *, vector<pair<pair<double, double>, pair<double, double>>>&, vector<pair<double,double>> &);
 	void LEAF_(vector<pair<pair<double, double>, pair<double, double>>>&, vector<pair<double,double>> &);
+
+	bool Search1(Node * , double, double);
+	bool S(double, double);
 
 protected:
 
