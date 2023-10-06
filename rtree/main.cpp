@@ -85,7 +85,7 @@ int main(int argc, char* argv[])
 	srand(time(0));
 
 	vector<pair<int, int>> points;
-	for (int i = 0; i < 200; i += 1) {
+	for (int i = 0; i < 2000; i += 2) {
 		pair<int, int> A;
 		float xr = abs(fmod(static_cast<float>(rand()) ,(float)1000.0));
 		float yr = abs(fmod(static_cast<float>(rand()) ,(float)1000.0));
@@ -93,7 +93,7 @@ int main(int argc, char* argv[])
 		A.second = yr;
 		points.push_back(A);
 	}
-	for (unsigned int i = 0; i < 100; i += 2) {
+	for (unsigned int i = 0; i < 1000; i += 2) {
 		//v_points.insertpush_back(A);          
 		vector<pair<int, int>>  sub1(&points[i], &points[i + 2]);
 		vpoints.push_back(sub1);
@@ -122,7 +122,12 @@ int main(int argc, char* argv[])
 	print(1, objects_n, output);
 	rtree.LEAF_(recta, puntos);
 	cout << endl;
-	cout << rtree.S(104,54) << endl;
+	Rect * rectangulo = new Rect(20,70,50,100);
+	vector<pair<pair<int,int>, pair<int,int>>> result = rtree.S(rectangulo);
+
+	for(auto p:result){
+		cout << p.first.first << "," << p.first.second << " " << p.second.first << "," << p.second.second << "\n";
+	}
 
     vtkSmartPointer<vtkRenderer> renderer = vtkSmartPointer<vtkRenderer>::New();
     vtkSmartPointer<vtkRenderWindow> renderWindow = vtkSmartPointer<vtkRenderWindow>::New();

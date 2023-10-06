@@ -15,7 +15,7 @@
 #include <utility>
 #include <iostream>
 
-#define MAXNODES 10
+#define MAXNODES 3
 #define MINNODES 1 
 
 using namespace std;
@@ -122,8 +122,8 @@ public:
 	void LEAF(Node *, vector<pair<pair<double, double>, pair<double, double>>>&, vector<pair<double,double>> &);
 	void LEAF_(vector<pair<pair<double, double>, pair<double, double>>>&, vector<pair<double,double>> &);
 
-	bool Search1(Node * , double, double);
-	bool S(double, double);
+	vector<pair<pair<int,int>, pair<int,int>>> Search1(Node * , Rect *, vector<pair<pair<int,int>, pair<int,int>>>&);
+	vector<pair<pair<int,int>, pair<int,int>>> S(Rect *);
 
 protected:
 

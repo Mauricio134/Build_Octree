@@ -979,29 +979,31 @@ void RTree::LEAF_(vector<pair<pair<double, double>, pair<double, double>>> &r , 
 	LEAF(m_root,r,po);
 }
 
-bool RTree::Search1(Node * node,double x, double y){
-	if(!node) return 0;
-	if(node->m_level == 0){
-		for(int j = 0; j < 4; j++){
+vector<pair<pair<int,int>, pair<int,int>>> RTree::Search1(Node * node,Rect * a_rect, vector<pair<pair<int,int>, pair<int,int>>> &MBR){
+	if(node->IsLeaf()){
+		for(int j = 0; j < node->m_count; j++){
 			if(node->m_branch[j].m_data.size() > 0){
 				for(auto p: node->m_branch[j].m_data){
-					if(x == p.first && y == p.second){
-						return 1;
+					if(Overlap(a_rect,&(node->m_branch[j].m_rect))){
+						pair<int,int> minXY(node->m_branch[j].m_rect.m_min[0],node->m_branch[j].m_rect.m_min[1]);
+						pair<int,int> maxXY(node->m_branch[j].m_rect.m_max[0],node->m_branch[j].m_rect.m_max[1]);
+						MBR.push_back(make_pair(minXY,maxXY));
 					}
 				}
 			}
 		}
-		return 0;
+		return MBR;
 	}
 
-	for(int i = 0; i < 4; i++){
-		if(x >= node->m_branch[i].m_rect.m_min[0] && x <= node->m_branch[i].m_rect.m_max[0] && y >= node->m_branch[i].m_rect.m_min[1] && y <= node->m_branch[i].m_rect.m_max[1]){
-			return this->Search1(node->m_branch[i].m_child, x, y);
+	for(int i = 0; i < node->m_count; i++){
+		if(Overlap(a_rect,&(node->m_branch[i].m_rect))){
+			return Search1(node->m_branch[i].m_child, a_rect, MBR);
 		}
 	}
-	return 0;
+	return MBR;
 }
 
-bool RTree::S(double x, double y){
-	return Search1(m_root, x, y);
+vector<pair<pair<int,int>, pair<int,int>>> RTree::S(Rect * a_rect){
+	vector<pair<pair<int,int>, pair<int,int>>> MBR;
+	return Search1(m_root, a_rect, MBR);
 }
