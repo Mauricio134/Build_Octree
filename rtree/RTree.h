@@ -15,7 +15,7 @@
 #include <utility>
 #include <iostream>
 
-#define MAXNODES 3
+#define MAXNODES 500
 #define MINNODES 1 
 
 using namespace std;

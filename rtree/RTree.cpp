@@ -1006,4 +1006,4 @@ vector<pair<pair<int,int>, pair<int,int>>> RTree::Search1(Node * node,Rect * a_r
 vector<pair<pair<int,int>, pair<int,int>>> RTree::S(Rect * a_rect){
 	vector<pair<pair<int,int>, pair<int,int>>> MBR;
 	return Search1(m_root, a_rect, MBR);
-}
+}	
