@@ -14,9 +14,13 @@
 #include <vector>
 #include <iostream>
 #include <math.h>
+#include <ctime>
+#include <cstdlib>
+#include <cmath>
 #include "RTree.h"
 
 using namespace std;
+
 
 vector<pair<pair<double, double>, pair<double, double>>> recta;
 vector<pair<double, double>> puntos;
@@ -78,15 +82,18 @@ int main(int argc, char* argv[])
 
 
 	float coord[16] = { 20, 59, 20, 43, 50, 58 , 48,67, 105, 68, 74, 64, 83, 40, 104, 54 };
+	srand(time(0));
 
 	vector<pair<int, int>> points;
-	for (int i = 0; i < 16; i += 2) {
+	for (int i = 0; i < 200; i += 1) {
 		pair<int, int> A;
-		A.first = coord[i];
-		A.second = coord[i + 1];
+		float xr = abs(fmod(static_cast<float>(rand()) ,(float)1000.0));
+		float yr = abs(fmod(static_cast<float>(rand()) ,(float)1000.0));
+		A.first = xr;
+		A.second = yr;
 		points.push_back(A);
 	}
-	for (unsigned int i = 0; i < 8; i += 2) {
+	for (unsigned int i = 0; i < 100; i += 2) {
 		//v_points.insertpush_back(A);          
 		vector<pair<int, int>>  sub1(&points[i], &points[i + 2]);
 		vpoints.push_back(sub1);

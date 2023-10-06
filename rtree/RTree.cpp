@@ -949,24 +949,30 @@ bool RTree::isInside(vector<pair<int, int>>& polygon, pair<int, int> p)
 	return count & 1;  // Same as (count%2 == 1)
 }
 
-void RTree::LEAF(Node * node, vector<pair<pair<double,double>,pair<double,double>>> &r, vector<pair<double,double>> &po){
-	for(int i = 0; i < 4; i++){
-		if(!node) return;
-		if(node->m_level == 0){
-			for(int j = 0; j < 4; j++){
-				if(node->m_branch[j].m_data.size() > 0){
-                    r.push_back(make_pair(make_pair(node->m_branch[j].m_rect.m_min[0],node->m_branch[j].m_rect.m_min[1]),make_pair(node->m_branch[j].m_rect.m_max[0],node->m_branch[j].m_rect.m_max[1])));
-					for(auto p: node->m_branch[j].m_data){
-						po.push_back(make_pair(p.first,p.second));
-					}
-				}
-			}
-			return;
-		}
-		this->LEAF(node->m_branch[i].m_child,r, po);
-		r.push_back(make_pair(make_pair(node->m_branch[i].m_rect.m_min[0],node->m_branch[i].m_rect.m_min[1]),make_pair(node->m_branch[i].m_rect.m_max[0],node->m_branch[i].m_rect.m_max[1])));
-	}
 
+void RTree::LEAF(Node * node, vector<pair<pair<double,double>,pair<double,double>>> &r, vector<pair<double,double>> &po){
+	if(node->IsLeaf()){
+		bool uno = true;
+		for(int j = 0; j < node->m_count; j++){
+			pair<double, double> pair1(node->m_branch[j].m_rect.m_min[0], node->m_branch[j].m_rect.m_min[1]);
+    		pair<double, double> pair2(node->m_branch[j].m_rect.m_max[0], node->m_branch[j].m_rect.m_max[1]);
+			pair<pair<double, double>, pair<double, double>> pairOfPairs(pair1, pair2);
+			r.push_back(pairOfPairs);
+			for(auto p:node->m_branch[j].m_data){
+				po.push_back(make_pair(p.first,p.second));
+			}
+		}
+		return;
+	}
+	else{
+		for(int i = 0; i<node->m_count; ++i){
+			LEAF(node->m_branch[i].m_child, r, po);
+			pair<double, double> pair1(node->m_branch[i].m_rect.m_min[0], node->m_branch[i].m_rect.m_min[1]);
+    		pair<double, double> pair2(node->m_branch[i].m_rect.m_max[0], node->m_branch[i].m_rect.m_max[1]);
+			pair<pair<double, double>, pair<double, double>> pairOfPairs(pair1, pair2);
+			r.push_back(pairOfPairs);		
+		}
+	}
 }
 
 void RTree::LEAF_(vector<pair<pair<double, double>, pair<double, double>>> &r , vector<pair<double,double>> & po){

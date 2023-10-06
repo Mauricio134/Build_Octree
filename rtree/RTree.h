@@ -11,9 +11,11 @@
 #include <functional>
 #include <vector>
 #include <limits>
+#include <unordered_set>
+#include <utility>
 #include <iostream>
 
-#define MAXNODES 3
+#define MAXNODES 10
 #define MINNODES 1 
 
 using namespace std;
@@ -21,6 +23,8 @@ using namespace std;
 #define ASSERT assert // RTree uses ASSERT( condition )
 #define Min min
 #define Max max
+
+
 
 
 struct Rect
